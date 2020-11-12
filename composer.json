@@ -1,0 +1,38 @@
+{
+    "name": "toknot/php-iocp",
+    "description": "PHP bindings to the windows I/O completion port API.",
+    "keywords": [
+        "php",
+        "ffi",
+        "C",
+        "windows",
+        "io",
+        "iocp",
+        "asynchronous"
+    ],
+    "homepage": "http://toknot.com",
+    "license": "BSD-3-Clause",
+    "version": "0.1-alpha",
+    "authors": [
+        {
+            "name": "Szopen Xiao",
+            "email": "xiao@toknot.com",
+            "homepage": "http://toknot.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/chopins/php-iocp/issues?state=open",
+        "source": "https://github.com/chopins/php-iocp"
+    },
+    "require": {
+        "php": ">=7.4.0",
+        "ext-ffi": "*",
+        "toknot/ffi-extend" : ">=0.1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Toknot\\": "src/"
+        }
+    }
+}
